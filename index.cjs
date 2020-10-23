@@ -1,2 +1,2 @@
-const {main} = require("./add");
+const {main} = require("./add.cjs");
 main();
