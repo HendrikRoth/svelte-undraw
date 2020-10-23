@@ -30,5 +30,5 @@
   "bin": {
     "svelte-undraw": "./index.js"
   },
-  "type": "module"
+  "type": "commonjs"
 }
