@@ -55,8 +55,8 @@ async function list(page = 0) {
 
 async function select(illustrations) {
     const prompt = new AutoComplete({
-        name: "Selected undraw illustration:",
-        limit: 10,
+        name: "Type to search undraw illustrations (fuzzy find):",
+        limit: 20,
         choices: illustrations.map(i => i.title)
     });
     const result = await prompt.run();
