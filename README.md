@@ -12,6 +12,6 @@ npm install -g svelte-undraw
 
 ```
 cd inYourProject;
-svele-undraw
+svelte-undraw
 ```
 This will open a cli assistant for you.
