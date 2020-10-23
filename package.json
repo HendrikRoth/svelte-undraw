@@ -1,0 +1,30 @@
+{
+  "name": "svelte-undraw",
+  "version": "0.0.1",
+  "description": "Load undraw illustrations and generate a svelte component from it.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HendrikRoth/svelte-undraw.git"
+  },
+  "keywords": [
+    "svelte",
+    "undraw"
+  ],
+  "author": "Hendrik Roth <hi@hendrikroth.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HendrikRoth/svelte-undraw/issues"
+  },
+  "homepage": "https://github.com/HendrikRoth/svelte-undraw#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "mock-fs": "^4.13.0"
+  },
+  "scripts": {
+    "test": "jest test.js"
+  }
+}
