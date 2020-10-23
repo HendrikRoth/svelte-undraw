@@ -1,6 +1,6 @@
 {
   "name": "svelte-undraw",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Load undraw illustrations and generate a svelte component from it.",
   "main": "index.js",
   "repository": {
@@ -30,5 +30,6 @@
   "bin": {
     "svelte-undraw": "./index.js"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "exports": "./index.js"
 }
