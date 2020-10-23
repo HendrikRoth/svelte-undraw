@@ -1,8 +1,8 @@
 {
   "name": "svelte-undraw",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Load undraw illustrations and generate a svelte component from it.",
-  "main": "index.js",
+  "main": "index.cjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HendrikRoth/svelte-undraw.git"
@@ -28,8 +28,8 @@
     "test": "jest test.js"
   },
   "bin": {
-    "svelte-undraw": "./index.js"
+    "svelte-undraw": "./index.cjs"
   },
-  "type": "commonjs",
-  "exports": "./index.js"
+  "type": "module",
+  "exports": "./index.cjs"
 }
